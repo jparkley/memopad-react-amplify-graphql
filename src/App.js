@@ -1,13 +1,17 @@
+import { useState } from 'react'
 import { Auth, Hub } from 'aws-amplify'
 // import { Greetings } from 'aws-amplify-react' -> Custom Sign Out
 import { withAuthenticator } from '@aws-amplify/ui-react'
 
 import CustomSignOutButton from './components/layout/CustomSignOutButton'
+import AddMemo from './components/AddMemo'
 import './App.css';
 
 function App() {
 
-  /* Custom sign out for custom buton */
+  const [memos, setMemos] = useState([])
+
+  /* Custom sign out for custom button */
   const handleSignOut = async () => {
     try {
       await Auth.signOut();
@@ -21,6 +25,7 @@ function App() {
   }
 
   return (
+    <>
     <div className="navbar">
       <div className="navbar-brand">
         <img src="./memo.png" alt="" />
@@ -31,6 +36,10 @@ function App() {
         {/* <Greetings />  */}
       </div>      
     </div>
+    <div className="container">
+      <AddMemo />
+    </div>
+    </>
   );
 }
 
