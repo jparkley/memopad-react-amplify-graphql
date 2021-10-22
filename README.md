@@ -1,4 +1,4 @@
-# Simple Memopad for your work management in React frontend and AWS Amplify Backend
+# Task Memopad in React frontend and AWS Amplify Backend
 Serverless React App
 Amplify Auth and API
 Amplify CICD
