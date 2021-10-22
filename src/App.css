@@ -66,19 +66,19 @@ button:hover {
   justify-content: center;
 }
 
-form {
+.memo-form {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-form button {
+.memo-form button {
   background-color: #28a745;
   margin-left: 20px;
   margin-bottom: 10px;
   display: inline;
 }
-form button:hover {
+.memo-form button:hover {
   opacity: 0.9;
 }
 

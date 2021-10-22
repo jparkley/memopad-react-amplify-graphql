@@ -20,7 +20,7 @@ const AddMemo = ({memos, setMemos}) => {
     
     return(
         <div className="container-top">
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="memo-form">
                 <div className="form-content">
                     <input type="text" name="memo" onChange={e => setMemo(e.target.value)}
                             value={memo} placeholder="Enter your memo" />   
