@@ -1,15 +1,17 @@
-# Task Memopad in React frontend and AWS Amplify Backend
+# Task Memopad
+## React frontend and AWS Amplify Backend
 - Serverless React App
 - Amplify Auth and API
 - Amplify CICD
-
 <br />
-Testing
+<br />
+
+## Testing
 - username: wawirin122@d3bb.com
 - password:  1ox2tigers!
+<br />
+<br />
 
-<br />
-<br />
 <table>
 <tbody>
  <tr>
@@ -19,15 +21,17 @@ Testing
 </tr>
  </tbody>
 </table>
-
 <br />
-##  Dependencies
+<br />
+
+## Dependencies
 - @aws-amplify/ui-react 1.2.20
 - aws-amplify 4.3.2
 - aws-amplify-react 5.1.3
 - dateformat 5.0.2
-
 <br />
+<br />
+
 ## TODO
 - Update status
 - Utilize context
