@@ -7,6 +7,8 @@ export const getMemo = /* GraphQL */ `
       id
       title
       description
+      category
+      completed
       createdAt
       updatedAt
     }
@@ -23,6 +25,8 @@ export const listMemos = /* GraphQL */ `
         id
         title
         description
+        category
+        completed
         createdAt
         updatedAt
       }
