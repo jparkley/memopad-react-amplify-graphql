@@ -7,6 +7,8 @@ export const onCreateMemo = /* GraphQL */ `
       id
       title
       description
+      category
+      completed
       createdAt
       updatedAt
     }
@@ -18,6 +20,8 @@ export const onUpdateMemo = /* GraphQL */ `
       id
       title
       description
+      category
+      completed
       createdAt
       updatedAt
     }
@@ -29,6 +33,8 @@ export const onDeleteMemo = /* GraphQL */ `
       id
       title
       description
+      category
+      completed
       createdAt
       updatedAt
     }
